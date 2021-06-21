@@ -19,7 +19,15 @@
 >
 >Atualiza comentário da última atualização da branch em que se encontra.
 
-> **`git log`** 
+> **`git checkout -b <nome_da_funcionalidade>`** 
+>
+>Crie um novo branch chamado "<funcionalidade_x>" e selecione-o.
+
+> **`git checkout <nome_da_funcionalidade>`** 
+>
+>Sai da branch atual e vai para a branch <funcionalidade>.
+
+> **`git log --stat`** 
 >
 >Mostra uma lista dos commits realizados e seus detalhes.
 
@@ -31,3 +39,21 @@
 > **`git reset --hard HEAD~3`** 
 >
 >É possivel voltar até 3 commits anteriores ao atual. O comando remove os commits e será impossível recuperá-los.
+
+> **`git branch`** 
+>
+>Lista todas as branchs locais disponíveis.
+
+> **`git branch -D <nome_da_branch>`** 
+>
+>A branch local e remota é apagada.
+
+> **`git add <nome_da_pasta_ou_arquivo>`** 
+>
+>Este comando vai adicionar um arquivo ou pasta que devem ser atualizado no repositório.
+
+> **`git add .`** 
+>
+>Este comando vai adicionar todas as atualizações que foram modificadas.<br>
+>Este recurso pode ser perigoso pois pode adicionar arquivos de diferentes contextos.<br>
+>Sempre que possível, utilizar o comando anterior.
