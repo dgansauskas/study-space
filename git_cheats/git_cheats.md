@@ -63,14 +63,14 @@
 >Sempre que possível, utilizar o comando anterior.
 
 **<p>-- Sequência de comandos para atualizar a branch atual com as alterações inseridas na develop ou master/main --</p>**
-> **`git checkout <develop-ou-master>`**
-> Sair da branch da feature em que está trabalhando
-> **`git pull`**
-> Atualizar o repositório local com as alterações da branch principal
-> **`git checkout <feature-branch>`**
-> Retornar para a branch da feature que está sendo implementada
-> **`git merge <develop-ou-master>`**
-> Realizar o merge com a branch principal
-> Será aberto o Vim questionano se há a necessidade de resolver conflitos. Resolver se for o caso
-> **`git push origin <feature-branch>`**
-> Atualizar o repositório remoto com os updates
+> **`git checkout <develop-ou-master>`** 
+> Sair da branch da feature em que está trabalhando 
+> **`git pull`** 
+> Atualizar o repositório local com as alterações da branch principal 
+> **`git checkout <feature-branch>`** 
+> Retornar para a branch da feature que está sendo implementada 
+> **`git merge <develop-ou-master>`** 
+> Realizar o merge com a branch principal 
+> Será aberto o Vim questionano se há a necessidade de resolver conflitos. Resolver se for o caso 
+> **`git push origin <feature-branch>`** 
+> Atualizar o repositório remoto com os updates 
