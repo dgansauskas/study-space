@@ -3,6 +3,7 @@
  Uma referência de boas práticas é o [video do Fábio Akita](https://www.youtube.com/watch?v=6OokP-NE49k).<br>
  Outra boa referência é o [curso gratuito no canal do Fabio Ruicci](https://www.youtube.com/playlist?list=PLvS2JoIlSA4DCmp7pbXXuZEUb5E-IDb-K).
 <br>
+
 > **`git init`**
 > 
 >Crie uma nova pasta, abra-a e execute o comando para criar um novo repositório.
@@ -62,7 +63,8 @@
 >Este recurso pode ser perigoso pois pode adicionar arquivos de diferentes contextos.
 >Sempre que possível, utilizar o comando anterior.
 
-**<p>-- Sequência de comandos para atualizar a branch atual com as alterações inseridas na develop ou master/main --</p>**
+**<p>-- Sequência de comandos para atualizar a branch atual com as alterações inseridas na develop ou master/main --</p>** 
+<br>
 > **`git checkout <develop-ou-master>`** 
 > Sair da branch da feature em que está trabalhando 
 > **`git pull`** 
