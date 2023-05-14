@@ -46,7 +46,11 @@
 
 > **`git branch -D <nome_da_branch>`** 
 >
->A branch local e remota é apagada.
+>A branch local é apagada.
+
+> **`git push origin --delete <branch-name>`**
+>
+> A branch remota é apagada. A boa prática recomenda executar primeiro a exclusão da branch localmente para, depois executar a exclusão no remoto
 
 > **`git add <nome_da_pasta_ou_arquivo>`** 
 >
@@ -54,6 +58,19 @@
 
 > **`git add .`** 
 >
->Este comando vai adicionar todas as atualizações que foram modificadas.<br>
->Este recurso pode ser perigoso pois pode adicionar arquivos de diferentes contextos.<br>
+>Este comando vai adicionar todas as atualizações que foram modificadas.
+>Este recurso pode ser perigoso pois pode adicionar arquivos de diferentes contextos.
 >Sempre que possível, utilizar o comando anterior.
+
+**<p>-- Sequência de comandos para atualizar a branch atual com as alterações inseridas na develop ou master/main --</p>**
+> **`git checkout <develop-ou-master>`**
+> Sair da branch da feature em que está trabalhando
+> **`git pull`**
+> Atualizar o repositório local com as alterações da branch principal
+> **`git checkout <feature-branch>`**
+> Retornar para a branch da feature que está sendo implementada
+> **`git merge <develop-ou-master>`**
+> Realizar o merge com a branch principal
+> Será aberto o Vim questionano se há a necessidade de resolver conflitos. Resolver se for o caso
+> **`git push origin <feature-branch>`**
+> Atualizar o repositório remoto com os updates
